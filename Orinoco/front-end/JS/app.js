@@ -1,7 +1,32 @@
-let elt = document.getElementById('main');
-elt.innerHTML = "<ul><li>Elément 1</li><li>Elément 2</li></ul>";
 
-elt.classList.add("nouvelleClasse");    // Ajoute la classe nouvelleClasse à l'élément
-elt.classList.remove("nouvelleClasse"); // Supprime la classe nouvelleClasse que l'on venait d'ajouter
-elt.classList.contains("nouvelleClasse");   // Retournera false car on vient de la supprimer
-elt.classList.replace("oldClass", "newClass"): // Remplacera oldClass par newClass si oldClass était présente sur l'élément
+document
+.getElementById("name")
+.addEventListener("input",
+function(e){
+    document
+    .getElementById("res-name")
+    .innerText = e.target.value;
+});
+document
+.getElementById("gender")
+.addEventListener("change",
+function(e){
+    document
+    .getElementById("res-gender")
+    .innerText = e.target.value;
+});
+
+document
+.getElementById("result")
+.addEventListener("mousemove",
+function(e){
+    document
+    .getElementById("mouse-x")
+    .innerText= e.offsetX;
+
+    document
+    .getElementById("mouse-y")
+    .innerText = e.offsetY;
+});
+
+

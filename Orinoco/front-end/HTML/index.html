@@ -8,12 +8,25 @@
     <title>Document</title>
 </head>
 <body>
-<div id="main">
-    <ul>
-        <li>Elément 1</li>
-        <li>Elément 2</li>
-    </ul>
-</div>
-    <p>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</p>
+    <form>
+        <div><input type="text" id="name" placeholder="Nom" /></div>
+        <div>
+          <select id="gender">
+            <option>Choisissez une valeur</option>
+            <option value="male">Homme</option>
+            <option value="female">Femme</option>
+            <option value="other">Autre</option>
+          </select>  
+        </div>
+      </form>
+      
+      <div id="result">
+        Nom : <span id="res-name"></span><br />
+        Genre : <span id="res-gender"></span><br />
+        Souris : (<span id="mouse-x"></span>, <span id="mouse-y"></span>)
+      </div>
+
 </body>
+<script src="../JS/app.js"></script>
+
 </html>
