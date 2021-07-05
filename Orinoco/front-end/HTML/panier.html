@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/front-end/CSS/style.css">
+    <link rel="stylesheet" href="/Front-end/CSS/media.css">
+    <link src='https://kit.fontawesome.com/a076d05399.js'>
+    <link rel="shortcut icon" type="image/png" href="/front-end/Images/Favicon.jpg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+
+
+    <title>Orinoco - Panier</title>
+
+
+</head>
+
+
+<body>
+
+
+    <header>
+
+
+    
+        <div class="presentation">
+
+            
+
+            <img src="/front-end/Images/Logo Oniroco.jpg" alt="logo Oniroco">
+
+            
+
+
+            <div class="liens">
+
+                <ul>
+
+                    <li>
+                        <a href="index.html"><i class="fas fa-home"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="panier.html"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+        </div>
+
+
+        
+    </header>
+
+    
+
+
+
+
+
+
+
+    <section class="panier">
+
+
+
+        <h1>Panier</h1>
+
+
+            
+        <table id="table" class="table">
+
+            
+
+            <thead id="thead">
+
+                <th>Produit</th>
+                <th>Prix</th>
+                <th>Supprimer</th>
+                
+                
+            
+            </thead>
+
+
+
+            <tbody id="tbody">
+
+                
+
+              
+            </tbody>
+
+
+
+        </table>
+
+
+
+
+        <table class="resultat">
+
+
+            <thead id="thead2">
+
+                <th class="total">Total</th>
+               
+
+                
+            </thead>
+
+
+
+
+
+        </table>
+
+
+
+    </section>
+
+
+
+  
+
+
+
+
+    <div class="formulaire">
+
+        <div class="header">
+
+            <h2>Formulaire de Commande</h2>
+
+        
+
+            <form class="main-form" id="myform" >
+
+                <div class="form">
+
+                    <label for="">Prénom</label>
+                    <input type="text" placeholder="Entrez votre Prénom" id="firstname" autocomplete="off" pattern="^[( )a-zA-Z]+$">
+                    <i class="fas sucess">&#xf058</i>
+                    <i class="fas error">&#xf06a</i>
+                    <small class="message"></small>
+
+                </div>
+
+
+ 
+                
+
+                <div class="form">
+
+                    <label for="">Nom</label>
+                    <input type="text" placeholder="Entrez votre Nom" id="lastname" autocomplete="off"  pattern="^[( )a-zA-Z]+$">
+                    <i class="fas sucess">&#xf058</i>
+                    <i class="fas error">&#xf06a</i>
+                    <small class="message"></small>
+
+                </div>
+
+
+
+                <div class="form">
+
+                    <label for="">Adresse</label>
+                    <input type="text" placeholder="Entrez votre Adresse Postale" id="address" autocomplete="off" pattern="^[A-Za-z-éèê0-9, ]+$">
+                    <i class="fas sucess">&#xf058</i>
+                    <i class="fas error">&#xf06a</i>
+                    <small class="message"></small>
+
+                </div>
+
+
+                <div class="form">
+
+                    <label for="">Adresse Mail</label>
+                    <input type="email" placeholder="Entrez votre Adresse Mail" id="email" autocomplete="off" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+[.][a-z]{2,4}">
+                    <i class="fas sucess">&#xf058</i>
+                    <i class="fas error">&#xf06a</i>
+                    <small class="message"></small>
+
+                </div>
+
+
+
+                <div class="form">
+
+                    <label for="">Ville</label>
+                    <input type="text" placeholder="Entrez votre Ville" id="city" autocomplete="off" pattern="^[( )a-zA-Z]+$">
+                    <i class="fas sucess">&#xf058</i>
+                    <i class="fas error">&#xf06a</i>
+                    <small class="message"></small>
+
+                </div>
+
+
+
+                <button class="btn">Confirmer la Commande</button>
+
+
+
+            </form>
+
+        </div>
+        
+    </div>
+
+
+
+
+
+
+    <footer>
+
+        <div class="info">
+
+            <ul>
+
+                <li>
+                    <a href="conditions">Conditions Générales</a>
+                </li>
+
+                </li>
+                    <a href="propos">À Propos</a>
+                </li>
+
+                </li>
+                    <a href="contact">Nous Contacter</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+    </footer>
+
+
+
+
+    
+    <script src="/Front-end/JS/fetch.js"></script>
+    <script src="/Front-end/JS/commande.js"></script>
+    
+
+</body>
+
+
+</html>

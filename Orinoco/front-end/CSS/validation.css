@@ -1,0 +1,150 @@
+*, ::before, ::after {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+
+    background: #eec0ee;
+    font-family: 'poppins', sans-serif;
+}
+
+
+
+
+
+/* HEADER */
+
+
+
+.presentation {
+
+    background: rgba(24, 1, 20, 0.651);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.presentation img  {
+
+    width: 200px;
+    
+}
+
+
+
+.liens {
+
+    display: flex;
+    width: 150px;
+    font-size: 20px;
+    
+    
+}
+
+
+.liens ul {
+
+    display: flex;
+    list-style-type: none;
+    
+    
+}
+
+.liens a {
+
+    display: flex;
+    text-decoration: none;
+    margin-left: 15px;
+    color: #fff;
+    
+}
+
+
+.liens i {
+
+    font-size: 25px;
+    width: 40px;
+    
+}
+
+
+
+/* VALIDATION DE LA COMMANDE */
+
+
+
+.validation {
+
+    background: rgb(147, 214, 121);
+    margin: 0 10px 0 10px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+.validation h1 {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 15px;
+    padding: 40px 0 0 0;
+    color: rgb(7, 59, 7);
+}
+
+
+
+.validation p {
+
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px 40px 10px;
+    margin-top: 20px;
+    color: rgb(7, 59, 7);
+    font-size: 15px;
+    
+}
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+
+footer {
+
+    background: rgba(24, 1, 20, 0.651);
+    margin-top: 300px;
+}
+
+
+.info ul  {
+
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.info a {
+
+    
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+
+}

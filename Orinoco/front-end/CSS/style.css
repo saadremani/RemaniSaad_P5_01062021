@@ -1,0 +1,575 @@
+*, ::before, ::after {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+
+    background: #eec0ee;
+    font-family: 'poppins', sans-serif;
+    
+}
+
+
+
+
+/* HEADER */
+
+
+
+.presentation {
+
+    background: rgba(24, 1, 20, 0.651);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.presentation img  {
+
+    width: 200px;
+    
+}
+
+
+
+.liens {
+
+    display: flex;
+    width: 150px;
+    font-size: 20px;
+    
+    
+}
+
+
+.liens ul {
+
+    display: flex;
+    list-style-type: none;
+    
+    
+}
+
+.liens a {
+
+    display: flex;
+    text-decoration: none;
+    margin-left: 15px;
+    color: #fff;
+    
+}
+
+
+.liens i {
+
+    font-size: 25px;
+    width: 40px;
+    
+}
+
+
+
+
+
+
+/* CORPS DE LA PAGE */
+
+
+h1 {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 25px;
+    width: 100%;
+
+}
+
+
+
+#main {
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+
+}
+
+
+
+
+.photo {
+
+    
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    margin: 50px auto;
+    background: rgba(26, 25, 25, 0.842);
+    
+
+}
+
+
+
+.nom {
+   
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.842);
+}
+
+
+.prix {
+
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.842);
+
+}
+
+
+
+.description {
+
+    margin: 10px;
+    color: #fff;
+
+}
+
+
+.image {
+
+    border-radius: 10px 10px 0 0;
+    margin-top: 0px;
+    height: 300px;
+    width: 298px;
+    object-fit: cover;
+    
+
+}
+
+
+.image img {
+
+    height: 200px;
+    width: 200px;
+    
+
+}
+
+
+.btn-produit {
+
+    
+    width: 17%;
+    padding: 10px;
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    background-color: rgb(180, 55, 6);
+    width: 278px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+
+.btn-produit:hover {
+
+    background-color: rgb(182, 74, 31);
+    
+
+
+}
+
+
+
+.btn-produit2 {
+
+    
+    width: 17%;
+    padding: 10px;
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    background-color: rgb(180, 55, 6);
+    width: 278px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+
+.btn-produit2:hover {
+
+    background-color: rgb(182, 74, 31);
+    
+
+
+}
+
+
+
+
+
+
+
+/* PANIER */
+
+
+
+.panier h1 {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 25px;
+
+}
+
+
+.container {
+
+    margin: 0.5rem;
+
+}
+
+
+
+
+.table {
+
+    background: rgb(238, 166, 98);
+    margin-top: 30px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.15);
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+
+th:nth-child(1) {
+
+    width: 35%;
+
+}
+
+
+.table th, .table td {
+
+    border: 1px solid #000;
+    
+
+}
+
+.table th {
+
+    background: rgb(83, 9, 102);
+    color: #fff;
+
+}
+
+
+thead th {
+
+    padding: 15px;
+
+}
+
+
+
+
+.resultat {
+
+    border: 1px solid black;
+    margin-top: 20px;
+    
+}
+
+
+
+#thead2 {
+
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 20px;
+    height: 60px;
+    background: rgb(238, 166, 98);
+    
+    
+    
+}
+
+
+
+
+#thead2 .total {
+
+    display: flex;
+    width: 110px;
+    color: #fff;
+    background: rgb(49, 117, 49);
+    
+
+}
+
+
+#thead2 .prixTotal {
+
+    background: none;
+    width: 590px;
+    
+
+}
+
+
+
+tbody td {
+
+    padding: 20px 0 25px 5px;
+
+}
+
+
+
+button {
+
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    background: red;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+    margin: auto;
+}
+
+
+
+
+
+#erreur {
+
+    color: rgb(161, 1, 1);
+
+}
+
+
+
+
+
+
+
+/* FORMULAIRE */
+
+
+
+.formulaire {
+
+   
+    background-color: rgb(238, 166, 98);
+    margin-top: 150px;
+    overflow: hidden;
+    
+
+}
+
+
+
+
+.header {
+
+    text-align: center;
+    padding: 20px;
+    
+
+}
+
+
+.main-form {
+
+    padding: 30px 40px;
+
+}
+
+.form {
+
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    position: relative;
+
+}
+
+
+
+.form input {
+
+    border: 2px solid #fff;
+    border-radius: 4px;
+    font-family: inherit;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+
+}
+
+
+.form i {
+
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+
+
+.form small {
+    
+    position: absolute;
+    bottom: 0;
+    left: 2px;
+    visibility: hidden;
+
+}
+
+.btn {
+
+    padding: 10px;
+    cursor: pointer;
+    background: rgb(67, 3, 73);
+    outline: none;
+
+}
+
+
+.btn:hover {
+
+    background-color: rgb(124, 7, 160);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* PAGE DE VALIDATION */
+
+
+
+
+#validation {
+
+    background: rgb(147, 214, 121);
+    border-radius: 10px;
+    height: 680px;
+    
+}
+
+
+
+#validation h1 {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 30px;
+    padding: 40px 0 0 0;
+    color: rgb(7, 59, 7);
+}
+
+
+
+#validation p {
+
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px 20px 10px;
+    margin-top: 20px;
+    color: rgb(7, 59, 7);
+    font-size: 20px;
+    
+}
+
+
+
+#btn-produit3 {
+
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    width: 200px;
+    border-radius: 5px;
+    
+}
+
+
+
+a {
+
+    
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+footer {
+
+    background: rgba(24, 1, 20, 0.651);
+    margin-top: 245px;
+}
+
+
+.info ul  {
+
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.info a {
+
+    
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+
+}
