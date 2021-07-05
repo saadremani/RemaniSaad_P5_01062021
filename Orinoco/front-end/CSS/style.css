@@ -1,3 +1,40 @@
-body{
-    background-color:gray;
+
+<<<<<<< HEAD
+
+body {
+  padding: 50px;
 }
+
+form, #result {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+span {
+  margin: 10px;
+}
+=======
+body {
+    padding: 50px;
+  }
+  
+  article {
+    margin: auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+  }
+  
+  .link {
+    float: right;
+    margin-left: 30px;
+  }
+  
+  span {
+    margin: 10px;
+  }
+  
+>>>>>>> dev_branch
